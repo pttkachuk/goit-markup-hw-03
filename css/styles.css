@@ -191,7 +191,6 @@ img {
   margin-right: 0px;
 }
 .advantages-name {
-  /* margin-top: 120px; */
   margin-bottom: 8px;
   font-style: normal;
   font-weight: 500;
@@ -208,11 +207,14 @@ img {
   color: var(--text-color);
 }
 /* Examples */
+.examples {
+  padding-bottom: 120px;
+}
 .examples > ul {
   list-style-type: none;
 }
 .examples-title {
-  margin-top: 120px;
+  /* margin-top: 120px; */
   margin-bottom: 72px;
   font-style: normal;
   font-weight: 700;
@@ -225,13 +227,14 @@ img {
 .examples-container {
   display: flex;
   flex-wrap: wrap;
+  gap: 24px;
 }
 .examples-container .item {
-  margin-right: 24px;
+  width: calc((100% - 48px) / 3);
 }
-.examples-container .item:nth-child(3n) {
+/* .examples-container .item:nth-child(3n) {
   margin-right: 0px;
-}
+} */
 /* Team */
 .team {
   background: var(--cloud-color);
