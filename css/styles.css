@@ -334,9 +334,7 @@ img {
   border-radius: 4px;
   cursor: pointer;
 }
-/* .filters-name {
-  padding: 12px 24px;
-} */
+
 .filters-button:hover,
 .filters-button:focus {
   background: var(--button-active-color);
@@ -383,19 +381,20 @@ img {
 .project-list {
   display: flex;
   flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
 }
 
 .project-list .item {
-  margin-right: 24px;
-  margin-bottom: 48px;
+  width: calc((100% - 48px) / 3);
 }
 .project-list .item:nth-child(3n) {
   margin-right: 0px;
 }
+
 .project-list-description {
   border-bottom: 1px solid var(--accent-color);
   border-left: 1px solid var(--accent-color);
   border-right: 1px solid var(--accent-color);
-  padding-top: 32px;
-  padding-left: 16px;
+  padding: 32px 16px;
 }
