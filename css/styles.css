@@ -240,8 +240,6 @@ img {
   list-style-type: none;
 }
 .team-title {
-  /* padding-top: 120px;
-  padding-bottom: 72px; */
   margin-top: 120px;
   margin-bottom: 72px;
   font-style: normal;
@@ -257,7 +255,6 @@ img {
   background-color: var(--white-color);
 }
 .teammates-name {
-  /* margin-top: 32px; */
   margin-bottom: 8px;
   text-align: center;
   font-style: normal;
@@ -284,12 +281,7 @@ img {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
-/* .team-container .teammates-description:nth-child(4n) {
-  margin-right: 0px;
-} */
-
 .teammates-description-container {
-  /* text-align: center; */
   padding: 32px 16px;
 }
 /* Footer */
@@ -297,6 +289,7 @@ img {
   background: var(--main-color);
   margin-top: 0px;
   margin-bottom: 0px;
+  padding: 100px 0px;
 }
 .studio-footer {
   font-family: "Raleway", sans-serif;
@@ -309,13 +302,14 @@ img {
   color: var(--cloud-color);
 }
 .footer-desc {
-  width: 264px;
+  max-width: 264px;
   font-size: 16px;
   line-height: 1.5;
   color: var(--cloud-color);
 }
-.footer-container {
-  padding: 100px 0px;
+.footer-container .link {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 /* Portfolio */
 
