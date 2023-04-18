@@ -147,9 +147,7 @@ img {
 .hero-button {
   display: block;
 }
-/* .hero-container {
-  padding: 188px 0px;
-} */
+
 .hero-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -175,6 +173,9 @@ img {
 }
 
 /* Advantages */
+.advantages {
+  padding: 120px 0px;
+}
 .advantages > ul {
   list-style-type: none;
 }
@@ -190,8 +191,8 @@ img {
   margin-right: 0px;
 }
 .advantages-name {
-  margin-top: 120px;
-  margin-bottom: 8px;
+  /* margin-top: 120px;
+  margin-bottom: 8px; */
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
