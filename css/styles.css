@@ -314,6 +314,10 @@ img {
 /* Portfolio */
 
 /* Filters */
+.filters {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 .filters > ul {
   list-style-type: none;
 }
@@ -345,8 +349,7 @@ img {
 .filters-container {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 96px;
-  padding-bottom: 120px;
+  margin-bottom: 72px;
   justify-content: center;
 }
 .filters-container .item {
