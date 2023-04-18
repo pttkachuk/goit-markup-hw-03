@@ -57,6 +57,7 @@ img {
   align-items: center;
   text-transform: uppercase;
   text-decoration: none;
+  margin-right: 76px;
 }
 
 .studio {
@@ -72,12 +73,11 @@ img {
 /* Site Nav */
 .site-nav {
   display: flex;
-  margin-left: 76px;
-}
-.site-nav .item + .item {
-  margin-left: 40px;
 }
 
+.site-nav {
+  gap: 40px;
+}
 .site-nav .link {
   display: block;
   padding-top: 24px;
@@ -92,9 +92,7 @@ img {
 .address-list {
   display: flex;
   align-items: center;
-}
-.address-list .item + .item {
-  margin-left: 40px;
+  gap: 40px;
 }
 
 .nav-list {
