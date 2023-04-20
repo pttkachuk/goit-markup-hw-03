@@ -11,9 +11,9 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  position: relative;
+  /* position: relative;
   width: 1440px;
-  height: 2592px;
+  height: 2592px; */
   letter-spacing: 0.02em;
   background: var(--white-color);
 }
@@ -37,6 +37,16 @@ body {
 }
 img {
   display: block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
 }
 /* Header */
 .main-navigation {
@@ -359,7 +369,6 @@ img {
 /* Examples Portafolio */
 
 .project-title {
-  margin-top: 0px;
   margin-bottom: 8px;
   font-style: normal;
   font-weight: 500;
@@ -369,8 +378,6 @@ img {
   color: var(--main-color);
 }
 .project-desc {
-  margin-top: 0px;
-  margin-bottom: 32px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
